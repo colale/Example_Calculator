@@ -25,6 +25,7 @@ public class Calculator {
                     try{
                         System.out.println("Insert Number 2:");
                         secondOperand = scanner.nextDouble();
+                        System.out.println("Result:");
                         System.out.println(firstOperand + secondOperand);
                         break;}
                     catch(Exception ex){validInput=FALSE;
@@ -35,6 +36,7 @@ public class Calculator {
                     try{
                         System.out.println("Insert Number 2");
                         secondOperand = scanner.nextDouble();
+                        System.out.println("Result:");
                         System.out.println(firstOperand - secondOperand);
                         break;}
                     catch(Exception ex){validInput=FALSE;
@@ -45,6 +47,7 @@ public class Calculator {
                     try{
                         System.out.println("Insert Number 2:");
                         secondOperand = scanner.nextDouble();
+                        System.out.println("Result:");
                         System.out.println(firstOperand * secondOperand);
                         break;}
                     catch(Exception ex){validInput=FALSE;
@@ -55,6 +58,7 @@ public class Calculator {
                     try {
                         System.out.println("Insert Number 2:");
                         secondOperand = scanner.nextDouble();
+                        System.out.println("Result:");
                         System.out.println(firstOperand / secondOperand);
                         break;
                     }
@@ -64,6 +68,7 @@ public class Calculator {
                     }
                 case 5:// /
                     try{
+                        System.out.println("Result:");
                         System.out.println(log(firstOperand));
                         break;}
                     catch(Exception ex){validInput=FALSE;
